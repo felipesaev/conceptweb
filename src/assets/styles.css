@@ -1117,9 +1117,6 @@ select {
   white-space: nowrap;
   border-width: 0;
 }
-.static {
-  position: static;
-}
 .absolute {
   position: absolute;
 }
@@ -1549,12 +1546,6 @@ select {
   }
   .lg\:aspect-\[5\/7\] {
     aspect-ratio: 5/7;
-  }
-  .lg\:aspect-\[2\/7\] {
-    aspect-ratio: 2/7;
-  }
-  .lg\:aspect-\[2\/3\] {
-    aspect-ratio: 2/3;
   }
   .lg\:aspect-\[2\/2\] {
     aspect-ratio: 2/2;
