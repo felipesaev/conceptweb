@@ -2,7 +2,7 @@ import { Article, ArticleContent, ArticleMedia } from '@/components/article'
 import { Layout } from '@/components/layout'
 import { useState } from 'react'
 
-import Image from '../assets/assistent.svg'
+import Image from '../assets/builder.svg'
 
 export default function SupportPage() {
   const [success, setSuccess] = useState(false)
@@ -15,8 +15,8 @@ export default function SupportPage() {
   return (
     <Layout>
       <Article>
-        <ArticleContent title="Suporte">
-          <p>Coloque sua solicitação aqui</p>
+        <ArticleContent title="Crie seu site">
+          <p>Coloque aqui algumas informações breves</p>
           {/* create a short contact form with name, email, and message */}
           <form className="space-y-4">
             <div>
@@ -52,7 +52,7 @@ export default function SupportPage() {
                 className="block text-lg font-medium leading-10"
                 htmlFor="message"
               >
-                Mensagem
+                Curta explicação do seu projeto
               </label>
               <textarea
                 className="w-full rounded-sm border border-gray-300 bg-white px-4 py-3 text-sm text-gray-500 shadow-none"
@@ -71,7 +71,7 @@ export default function SupportPage() {
 
             {success && (
               <div className="mt-2 text-xs italic text-gray-500">
-                🎉 Showw!! Logo entraremos em contato!
+                🎉 Obaaa!! Espere um momento, logo entraremos em contato!
               </div>
             )}
           </form>

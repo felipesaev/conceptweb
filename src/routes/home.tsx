@@ -7,7 +7,7 @@ export default function HomePage() {
     <Layout>
       <Hero
         title="Páginas Web para empresas"
-        content="Temos a solução perfeita para seu negocio digital. É simples e sem dor de cabeça. Deixe seu melhor e-mail abaixo e nós entraremos em contato"
+        content="Temos a solução perfeita para seu negocio digital. É simples e sem dor de cabeça, com valores que cabe no seu bolso."
         illustration={<HeroIllustration />}
       />
     </Layout>

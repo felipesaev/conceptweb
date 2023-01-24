@@ -2,6 +2,7 @@ import AboutPage from '@/routes/about'
 import ContactPage from '@/routes/contact'
 import FaqsPage from '@/routes/faqs'
 import Build from '@/routes/build'
+import Create from '@/routes/create'
 import HomePage from '@/routes/home'
 import SupportPage from '@/routes/support'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="contact" element={<ContactPage />} />
           <Route path="faqs" element={<FaqsPage />} />
           <Route path="support" element={<SupportPage />} />
+          <Route path="create" element={<Create />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>
